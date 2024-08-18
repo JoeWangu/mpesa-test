@@ -1,0 +1,57 @@
+/.venv/
+/venv/
+/.vscode/
+/static/
+/db.sqlite3
+/media/
+/.idea/
+**/__pycache__/
+/discarded_code/
+
+
+# Byte-compiled / optimized / DLL files
+pycache/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+
+# Ignore database
+db.sqlite3
+*.db
+
+# Media and static files
+media/
+staticfiles/
+static_root/
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Local settings
+local_settings.py
+
+# Ignore all migration files
+*/migrations/*.py
+
+# Except for init.py
+!*/migrations/init.py
+
+# Other ignores
+.idea/
+.vscode/
+.DS_Store
+*.swp
