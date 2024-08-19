@@ -55,3 +55,13 @@ local_settings.py
 .vscode/
 .DS_Store
 *.swp
+
+.bashrc
+.cache/
+.gitconfig
+.ipython/
+.local/
+.profile
+.pythonstartup.py
+.vimrc
+.virtualenvs/
